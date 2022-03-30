@@ -1,0 +1,82 @@
+2022-03-30 22:56:11,712 - root - INFO - test
+2022-03-30 22:56:11,713 - WDM - INFO - 
+
+2022-03-30 22:56:11,713 - WDM - INFO - ====== WebDriver manager ======
+2022-03-30 22:56:12,076 - WDM - INFO - Current google-chrome version is 99.0.4844
+2022-03-30 22:56:12,076 - WDM - INFO - Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-30 22:56:12,079 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-03-30 22:56:12,173 - urllib3.connectionpool - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_99.0.4844 HTTP/1.1" 200 12
+2022-03-30 22:56:12,177 - WDM - INFO - Driver [C:\Users\asus\.wdm\drivers\chromedriver\win32\99.0.4844.51\chromedriver.exe] found in cache
+2022-03-30 22:56:12,710 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-03-30 22:56:12,710 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:62913
+2022-03-30 22:56:13,304 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session HTTP/1.1" 200 787
+2022-03-30 22:56:13,304 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:13,304 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/window/maximize {}
+2022-03-30 22:56:13,430 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/window/maximize HTTP/1.1" 200 51
+2022-03-30 22:56:13,431 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:13,431 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/url {"url": "https://www.amazon.pl/"}
+2022-03-30 22:56:14,737 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/url HTTP/1.1" 200 14
+2022-03-30 22:56:14,738 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:14,738 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/element {"using": "css selector", "value": "[id=\"nav-link-accountList-nav-line-1\"]"}
+2022-03-30 22:56:14,759 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/element HTTP/1.1" 200 88
+2022-03-30 22:56:14,759 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:14,760 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/element/8d7e0d2a-56ef-44cf-93ec-3406324cd445/click {"id": "8d7e0d2a-56ef-44cf-93ec-3406324cd445"}
+2022-03-30 22:56:15,191 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/element/8d7e0d2a-56ef-44cf-93ec-3406324cd445/click HTTP/1.1" 200 14
+2022-03-30 22:56:15,191 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:17,198 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/element {"using": "css selector", "value": "[id=\"ap_email\"]"}
+2022-03-30 22:56:17,208 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/element HTTP/1.1" 200 88
+2022-03-30 22:56:17,208 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:17,208 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/element/87e06db8-0b74-4314-a2ce-7485d9c7fda2/value {"text": "login", "value": ["l", "o", "g", "i", "n"], "id": "87e06db8-0b74-4314-a2ce-7485d9c7fda2"}
+2022-03-30 22:56:17,252 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/element/87e06db8-0b74-4314-a2ce-7485d9c7fda2/value HTTP/1.1" 200 14
+2022-03-30 22:56:17,253 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:17,253 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/element {"using": "css selector", "value": "[id=\"continue\"]"}
+2022-03-30 22:56:17,260 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/element HTTP/1.1" 200 88
+2022-03-30 22:56:17,261 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:17,261 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/element/709e837d-c8fd-4e96-a080-6f758feb668a/click {"id": "709e837d-c8fd-4e96-a080-6f758feb668a"}
+2022-03-30 22:56:17,658 - urllib3.connectionpool - DEBUG - http://localhost:62913 "POST /session/97867d94e7213ff0fc6a4f3bff15e2c8/element/709e837d-c8fd-4e96-a080-6f758feb668a/click HTTP/1.1" 200 14
+2022-03-30 22:56:17,658 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 22:56:19,660 - root - ERROR - Błąd
+2022-03-30 22:56:19,660 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://localhost:62913/session/97867d94e7213ff0fc6a4f3bff15e2c8/window {}
+2022-03-30 22:56:23,808 - urllib3.connectionpool - DEBUG - http://localhost:62913 "DELETE /session/97867d94e7213ff0fc6a4f3bff15e2c8/window HTTP/1.1" 200 12
+2022-03-30 22:56:23,808 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:03:57,323 - root - INFO - test
+2022-03-30 23:03:57,323 - WDM - INFO - 
+
+2022-03-30 23:03:57,323 - WDM - INFO - ====== WebDriver manager ======
+2022-03-30 23:03:57,707 - WDM - INFO - Current google-chrome version is 99.0.4844
+2022-03-30 23:03:57,707 - WDM - INFO - Get LATEST chromedriver version for 99.0.4844 google-chrome
+2022-03-30 23:03:57,710 - urllib3.connectionpool - DEBUG - Starting new HTTPS connection (1): chromedriver.storage.googleapis.com:443
+2022-03-30 23:03:57,862 - urllib3.connectionpool - DEBUG - https://chromedriver.storage.googleapis.com:443 "GET /LATEST_RELEASE_99.0.4844 HTTP/1.1" 200 12
+2022-03-30 23:03:57,865 - WDM - INFO - Driver [C:\Users\asus\.wdm\drivers\chromedriver\win32\99.0.4844.51\chromedriver.exe] found in cache
+2022-03-30 23:03:58,402 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "pageLoadStrategy": "normal", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2022-03-30 23:03:58,402 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): localhost:63192
+2022-03-30 23:03:58,994 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session HTTP/1.1" 200 787
+2022-03-30 23:03:58,994 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:03:58,994 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/window/maximize {}
+2022-03-30 23:03:59,120 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/window/maximize HTTP/1.1" 200 51
+2022-03-30 23:03:59,120 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:03:59,120 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/url {"url": "https://www.amazon.pl/"}
+2022-03-30 23:04:00,251 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/url HTTP/1.1" 200 14
+2022-03-30 23:04:00,251 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:00,251 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/element {"using": "css selector", "value": "[id=\"nav-link-accountList-nav-line-1\"]"}
+2022-03-30 23:04:00,268 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/element HTTP/1.1" 200 88
+2022-03-30 23:04:00,269 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:00,269 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/element/3ecda777-5a09-4c8f-91a7-1785cfc6b059/click {"id": "3ecda777-5a09-4c8f-91a7-1785cfc6b059"}
+2022-03-30 23:04:00,727 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/element/3ecda777-5a09-4c8f-91a7-1785cfc6b059/click HTTP/1.1" 200 14
+2022-03-30 23:04:00,727 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:02,736 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/element {"using": "css selector", "value": "[id=\"ap_email\"]"}
+2022-03-30 23:04:02,746 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/element HTTP/1.1" 200 88
+2022-03-30 23:04:02,746 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:02,746 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/element/24c9f04c-38dc-4ddb-9db2-1f97f3c0d0cd/value {"text": "login", "value": ["l", "o", "g", "i", "n"], "id": "24c9f04c-38dc-4ddb-9db2-1f97f3c0d0cd"}
+2022-03-30 23:04:02,789 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/element/24c9f04c-38dc-4ddb-9db2-1f97f3c0d0cd/value HTTP/1.1" 200 14
+2022-03-30 23:04:02,789 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:02,789 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/element {"using": "css selector", "value": "[id=\"continue\"]"}
+2022-03-30 23:04:02,797 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/element HTTP/1.1" 200 88
+2022-03-30 23:04:02,798 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:02,798 - selenium.webdriver.remote.remote_connection - DEBUG - POST http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/element/06e1c142-1182-4fbf-94f1-a3e191b53db8/click {"id": "06e1c142-1182-4fbf-94f1-a3e191b53db8"}
+2022-03-30 23:04:03,165 - urllib3.connectionpool - DEBUG - http://localhost:63192 "POST /session/8c251c37d0cdec3a91969a53fb78bf5a/element/06e1c142-1182-4fbf-94f1-a3e191b53db8/click HTTP/1.1" 200 14
+2022-03-30 23:04:03,165 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
+2022-03-30 23:04:05,175 - root - ERROR - Błąd
+2022-03-30 23:04:05,175 - selenium.webdriver.remote.remote_connection - DEBUG - DELETE http://localhost:63192/session/8c251c37d0cdec3a91969a53fb78bf5a/window {}
+2022-03-30 23:04:09,299 - urllib3.connectionpool - DEBUG - http://localhost:63192 "DELETE /session/8c251c37d0cdec3a91969a53fb78bf5a/window HTTP/1.1" 200 12
+2022-03-30 23:04:09,299 - selenium.webdriver.remote.remote_connection - DEBUG - Finished Request
