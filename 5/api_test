@@ -1,0 +1,48 @@
+import requests
+
+dog_pixels = '/300/200'
+dog_pixels1 = '/0/0'
+dog_pixels2 = '/-2/-1'
+dog_foto = 'https://place.dog/300/200'
+
+
+def smallassert200(notneko):
+    url = 'https://place.dog{}'.format(notneko)
+    response = requests.request("GET", url)
+    try:
+        assert response.status_code == 200
+    except AssertionError:
+        print("Error 200", response, notneko)
+    print(response, url)
+
+
+def normalassert200(notneko):
+    url = 'https://place.dog{}'.format(notneko)
+    response = requests.request("GET", url)
+    try:
+        assert response.status_code == 200
+    except AssertionError:
+        print("Error 200", response, notneko)
+    print(response, url)
+
+
+def assertError400(notneko):
+    url = 'https://place.dog{}'.format(notneko)
+    response = requests.request("GET", url)
+    try:
+        assert response.status_code == 400
+    except AssertionError:
+        print("Error 400", response, notneko)
+        return
+    print(response, url)
+
+
+smallassert200(dog_pixels)
+smallassert200(dog_pixels1)
+smallassert200(dog_pixels2)
+normalassert200(dog_pixels)
+normalassert200(dog_pixels1)
+normalassert200(dog_pixels2)
+assertError400(dog_pixels)
+assertError400(dog_pixels1)
+assertError400(dog_pixels2)
